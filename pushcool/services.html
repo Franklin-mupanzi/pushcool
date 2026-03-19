@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUSH&COOL - Nos Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-header {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+            color: var(--white);
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            
+            .page-header {
+                padding: 6rem 1rem 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">PUSH&COOL</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="equipe.html">Équipe</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- EN-TÊTE DE PAGE -->
+    <div class="page-header">
+        <h1>Nos Services</h1>
+        <p>Des solutions professionnelles pour votre confort</p>
+    </div>
+
+    <!-- SECTION SERVICES -->
+    <section class="section">
+        <div class="services-grid">
+            <!-- Service 1 : Sonneries de porte -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 3L2 9v11h20V9l-10-6zm0 2.3l8 4.8v9H4v-9l8-4.8zM8 13h8v2H8z"/>
+                    </svg>
+                </div>
+                <h3>Installation de sonneries de porte</h3>
+                <p>Installation professionnelle de sonneries filaires et sans fil. Nous vous proposons une gamme complète de sonneries adaptées à vos besoins : classiques, connectées, vidéo. Diagnostic gratuit et devis personnalisé.</p>
+                <ul style="text-align: left; margin-top: 1rem; list-style-type: none;">
+                    <li>✓ Sonneries filaires et sans fil</li>
+                    <li>✓ Systèmes vidéo</li>
+                    <li>✓ Compatible domotique</li>
+                    <li>✓ Installation rapide et propre</li>
+                </ul>
+            </div>
+
+            <!-- Service 2 : Climatiseurs -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                </div>
+                <h3>Installation de climatiseurs</h3>
+                <p>Experts en climatisation, nous installons tous types de systèmes : monosplit, multisplit, gainable. Conseils personnalisés pour choisir la solution la plus adaptée à votre espace et à votre budget.</p>
+                <ul style="text-align: left; margin-top: 1rem; list-style-type: none;">
+                    <li>✓ Systèmes monosplit et multisplit</li>
+                    <li>✓ Climatiseurs réversibles</li>
+                    <li>✓ Installation discrète et esthétique</li>
+                    <li>✓ Mise en service et formation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION GARANTIES -->
+    <section class="section" style="background: var(--light-blue); border-radius: 15px;">
+        <h2 class="section-title">Nos engagements</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+            <div style="text-align: center;">
+                <h3 style="color: var(--primary-blue); margin-bottom: 1rem;">🔧 Expertise</h3>
+                <p>Des techniciens qualifiés et expérimentés</p>
+            </div>
+            <div style="text-align: center;">
+                <h3 style="color: var(--primary-blue); margin-bottom: 1rem;">⚡ Rapidité</h3>
+                <p>Intervention rapide dans toute la région</p>
+            </div>
+            <div style="text-align: center;">
+                <h3 style="color: var(--primary-blue); margin-bottom: 1rem;">✅ Garantie</h3>
+                <p>Tous nos travaux sont garantis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PUSH&COOL</h3>
+                <p>Votre confort, notre expertise</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul style="list-style: none;">
+                    <li><a href="index.html" style="color: white; text-decoration: none;">Accueil</a></li>
+                    <li><a href="services.html" style="color: white; text-decoration: none;">Services</a></li>
+                    <li><a href="equipe.html" style="color: white; text-decoration: none;">Équipe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PUSH&COOL. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- BOUTON RETOUR EN HAUT -->
+    <button class="back-to-top" aria-label="Retour en haut">
+        <svg viewBox="0 0 24 24">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
